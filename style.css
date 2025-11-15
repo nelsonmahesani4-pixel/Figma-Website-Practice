@@ -1,0 +1,63 @@
+@import url('./Typography/typography.css');
+:root{
+    --bg-primary:#4CAF4F;
+}
+.navbar{
+    margin-right: 400px;
+    vertical-align: ;
+}
+.Register-button{
+    background-color: #4CAF4F;
+    border:1px solid #4CAF4F;
+    color:white;
+    border-radius:4px;
+}
+.Register-button:hover{
+    color: white;
+    background-color: #4CAF4F;
+}
+.hero-text,.hero-img{
+    
+}
+.hero-div{
+    background:#F5F7FA;
+    height:420px;
+    width:100%;
+    gap: 100px;       
+}
+button{
+    background-color: #4CAF4F !important;
+    border-radius: 4px;;
+}
+.hero-img{
+vertical-align: text-bottom;       
+}
+.text{
+    color:#4CAF4F;
+}
+.hero-text{
+    padding-top:60px;
+    align-items: center;
+    justify-content: center;
+            
+  
+}
+.client-sub-div{
+    width:70%;
+    height: 80px;
+}
+.client-div,.client-div4{
+    background-color: #F5F7FA;
+}
+.client-image1{
+    border-radius:4px;
+}
+.image-div{
+    background: #F5F7FA;
+    top:-100px;
+    width:250px;
+    border-radius:4px;
+    height:100px;
+    box-shadow: 0px 5.57px 11.14px 0px #ABBED166;
+
+}
