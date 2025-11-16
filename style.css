@@ -2,6 +2,9 @@
 :root{
     --bg-primary:#4CAF4F;
 }
+body{
+    overflow-x: hidden;
+}
 .logo{
     width:100px;
     
@@ -50,23 +53,22 @@ vertical-align: text-bottom;
             
   
 }
+p{
+    font-size: 16px;
+}
 .client-sub-div{
     width:70%;
-    height: 80px;
+    height: 150px;
 }
-.client-div,.client-div4{
+.client-div4{
     background-color: #F5F7FA;
 }
 .client-image1{
     border-radius:4px;
 }
 .image-div{
-    background: #F5F7FA;
     top:-100px;
-    width:250px;
-    border-radius:4px;
-    height:100px;
-    box-shadow: 0px 5.57px 11.14px 0px #ABBED166;
+    left:20px;
 
 }
 p{
@@ -80,20 +82,48 @@ p{
         display: block;
     }
 }
+
 @media screen and (max-width:768px) {
-     .navbar{
-        display:none;
+     .nav-menu{
+        visibility: hidden;
+    }
+    .Register-button{
+        visibility: visible;
+        top:-200px;
+        left:500px
     }
     .hamburger{
-        display: block;
+        position:relative;
+        left:400px;
+        top:-20px;
+        font-size:72px;
+        visibility: visible;
     }
-    .header,.hero-section,.client-section{
+    .header,.hero-section{
         flex-wrap: wrap ;
-    width:1000px;
-    margin:auto;
+     margin-left:200px;
+     width: 100%;
     justify-content: center;
+}
+.client-section{
+width:800px;
+margin:auto;
+}
+.hero-div{
+    height:50%;
+    background-color: #F5F7FA;
 }
 .client-text{
     width:100%;
+    
+}
+
+}
+@media screen and (max-width:480px) {
+    
+
+.Learn-more-button{
+    justify-content: center;
+
 }
 }
