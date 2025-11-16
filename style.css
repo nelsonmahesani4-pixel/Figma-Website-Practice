@@ -24,7 +24,7 @@
     
 }
 .header,.hero-section,.client-section{
-    width:1400px;
+    width:100%;
     margin:auto;
 }
 .hero-div{
@@ -79,4 +79,21 @@ p{
     .hamburger{
         display: block;
     }
+}
+@media screen and (max-width:768px) {
+     .navbar{
+        display:none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .header,.hero-section,.client-section{
+        flex-wrap: wrap ;
+    width:1000px;
+    margin:auto;
+    justify-content: center;
+}
+.client-text{
+    width:100%;
+}
 }
